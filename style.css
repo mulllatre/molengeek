@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(11, 14, 9);
+    color: rgb(255, 255, 255); 
+}
+
+.me {
+    font-family: "Host Grotesk", serif;
+    top: 100px;
+    font-size: 200%;
+    text-align: center;
+}
+
+.info {
+    position: relative;
+    background-color: #0000002f;
+    padding: 20px;
+    border: 2px solid #1f2c1faf;
+    border-top-left-radius: 15px;
+    width: 35%;
+    margin: 20px auto;
+    font-family: "Host Grotesk", serif;
+    text-align: left;
+}
+
+.info p {
+    font-size: 18px;
+    font-weight: 900;
+    color: #ffffff;
+    display: inline;
+}
+
+#bxl {
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    background: linear-gradient(45deg, #000, #fcd116, #e70028);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: gradient-animation 5s linear infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+.heures {
+    position: relative;
+    background-color: #0000002f;
+    padding: 20px;
+    border: 2px solid #1f2c1faf;
+    border-bottom-right-radius: 15px;
+    width: 35%;
+    margin: 20px auto;
+    font-family: "Host Grotesk", serif;
+    text-align: center;
+}
+
+#bx {
+    color: #ffffff4b;
+}
+
+#heure {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+}
+
+.bloc-social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 40px;
+    margin: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #58b500;
+    text-shadow: 0 0 10px rgba(0, 181, 39, 0.8);
+}
+
+.social-icon i {
+    vertical-align: middle;
+}
